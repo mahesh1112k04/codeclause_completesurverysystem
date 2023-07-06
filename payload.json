@@ -1,0 +1,16 @@
+{
+  "title": "Favorite Food Survey",
+  "questions": [
+    {
+      "question": "What is your favorite cuisine?",
+      "options": ["Italian", "Mexican", "Chinese", "Indian", "Other"]
+    },
+    {
+      "question": "What is your favorite dessert?",
+      "options": ["Cake", "Ice Cream", "Pie", "Cookies", "Other"]
+    }
+  ]
+}
+``4. Retrieve surveys:
+ - To retrieve all surveys: Send a GET request to `http://localhost:3000/surveys`.
+ - To retrieve a specific survey: Send a GET request to `http://localhost:3000/surveys/:id`, where `:id` is the ID of the survey you want to retrieve.
